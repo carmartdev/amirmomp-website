@@ -1,0 +1,57 @@
+* {
+  font-family: "Poiret One", cursive;
+  font-family: "Ysabeau SC", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Borel", cursive;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: aliceblue;
+}
+body {
+  background-color: #a2a2d5;
+  color: aliceblue;
+  text-align: center;
+}
+nav {
+  display: flex;
+  background-color: coral;
+  justify-content: space-around;
+}
+nav a {
+  text-align: center;
+  list-style: none;
+  padding: 25px 2%;
+  background-color: coral;
+  text-decoration: none;
+  display: block;
+}
+nav a:hover {
+  background-color: orange;
+  color: #fff;
+  text-decoration: none;
+}
+#logo-top {
+  fill: coral;
+}
+#jumborton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    background-image: url("/images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 65vh;
+    width: 100%;
+    flex-direction: column;
+    padding: 8vh 0;
+    align-items: center;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
